@@ -16,10 +16,11 @@
     "cli-table": "^0.3.1",
     "collect.js": "^4.16.6",
     "qrcode-terminal": "^0.12.0",
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.22.2",
+    "@oclif/dev-cli": "^1.24.0",
     "@oclif/test": "^1.2.7",
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
@@ -78,6 +79,9 @@
     "coverage:report": "nyc --reporter=html mocha test/commands/",
     "version": "oclif-dev readme && git add README.md",
     "semantic-release": "semantic-release",
-    "lint": "standard --env mocha --fix"
-  }
+    "lint": "standard --env mocha --fix",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
