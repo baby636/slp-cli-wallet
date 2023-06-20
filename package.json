@@ -11,7 +11,7 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.0",
-    "@psf/bch-js": "^4.15.0",
+    "@psf/bch-js": "^4.15.9",
     "bignumber.js": "^9.0.0",
     "cli-table": "^0.3.1",
     "collect.js": "^4.16.6",
@@ -19,11 +19,11 @@
     "shelljs": "^0.8.2"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.22.2",
+    "@oclif/dev-cli": "^1.24.0",
     "@oclif/test": "^1.2.7",
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
-    "eslint": "^5.7.0",
+    "eslint": "^7.0.0",
     "eslint-config-oclif": "^3.1.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-node": "^11.1.0",
@@ -36,9 +36,9 @@
     "nock": "^12.0.0",
     "nyc": "^15.0.0",
     "prettier": "^1.18.2",
-    "semantic-release": "^17.3.7",
+    "semantic-release": "^21.0.2",
     "sinon": "^9.0.0",
-    "standard": "^14.3.4",
+    "standard": "^15.0.0",
     "test-console": "^1.1.0"
   },
   "engines": {
