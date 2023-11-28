@@ -10,8 +10,8 @@
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
-    "@oclif/plugin-help": "^3.2.0",
-    "@psf/bch-js": "^4.15.0",
+    "@oclif/plugin-help": "^3.2.4",
+    "@psf/bch-js": "^4.20.24",
     "bignumber.js": "^9.0.0",
     "cli-table": "^0.3.1",
     "collect.js": "^4.16.6",
@@ -19,7 +19,7 @@
     "shelljs": "^0.8.2"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.22.2",
+    "@oclif/dev-cli": "^1.24.0",
     "@oclif/test": "^1.2.7",
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
