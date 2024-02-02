@@ -8,8 +8,8 @@
   },
   "bugs": "https://github.com/Permissionless-Software-Foundation/slp-cli-wallet/issues",
   "dependencies": {
-    "@oclif/command": "^1.8.0",
-    "@oclif/config": "^1.17.0",
+    "@oclif/command": "^1.8.36",
+    "@oclif/config": "^1.18.17",
     "@oclif/plugin-help": "^3.2.0",
     "@psf/bch-js": "^4.15.0",
     "bignumber.js": "^9.0.0",
@@ -19,7 +19,7 @@
     "shelljs": "^0.8.2"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.22.2",
+    "@oclif/dev-cli": "^1.26.10",
     "@oclif/test": "^1.2.7",
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
